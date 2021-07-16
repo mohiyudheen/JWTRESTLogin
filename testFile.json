@@ -1,0 +1,45 @@
+{
+	"id": "44907c9e-cb9d-4ba4-f8ac-3019dddbd80c",
+	"name": "JWTRest",
+	"description": "",
+	"order": [
+		"7f3a08e5-d46f-02a4-fc05-ae4784b4bbdb"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1626352829186,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "7f3a08e5-d46f-02a4-fc05-ae4784b4bbdb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/login/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1626412822165,
+			"name": "login",
+			"description": "",
+			"collectionId": "44907c9e-cb9d-4ba4-f8ac-3019dddbd80c",
+			"responses": [],
+			"rawModeData": "{\"username\":\"user1\",\"password\":\"adminadmin@123\"}"
+		}
+	]
+}
