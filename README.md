@@ -1,16 +1,12 @@
 ## Steps To Run Project
 
-Step 1: Create Virtual environment
-        virtualenv venv
+Step 1: Create Virtual environment. virtualenv venv
         
-Step 2: Activate virtual environment 
-        source venv/bin/activate
+Step 2: Activate virtual environment.  source venv/bin/activate
 
-Step 3: then install modules 
-        pip install -r requirements.txt
+Step 3: then install modules. pip install -r requirements.txt
 
-Step 4: Run project
-        python manage.py runserver
+Step 4: Run project. python manage.py runserver
 
 ## Obtain Token
 
